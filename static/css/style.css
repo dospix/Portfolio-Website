@@ -17,6 +17,26 @@ h1, h2, h3, h4, h5, h6, p {
     text-align: center;
 }
 
+.project {
+    background-color: red;
+    display: flex;
+    justify-content: center;
+}
+
+.project > .text {
+    width: 65%;
+    text-align: center;
+}
+
+.project > .image {
+    width: 35%;
+}
+
+.right-image {
+    width: 25vw;
+    height: 35vw;
+}
+
 #footer {
     border-top: 0.2vh solid black;
     height: 10vh;
