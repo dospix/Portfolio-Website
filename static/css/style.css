@@ -23,7 +23,7 @@ h1, h2, h3, h4, h5, h6, p {
     background: rgb(27, 26, 26);
 }
 
-#vector-graphics {
+.vector-graphics {
     padding: 2vh 0 1vh 2vw;
     width: 2.5vw;
 }
