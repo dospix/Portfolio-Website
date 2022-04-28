@@ -13,8 +13,30 @@ h1, h2, h3, h4, h5, h6, p {
     margin: 1vh 1vw 1vh 1vw;
 }
 
+#page-title {
+    display: flex;
+    align-items: center;
+    height: 20vh;
+}
+
+#titles {
+    margin: auto;
+}
+
 .centered-title {
     text-align: center;
+}
+
+#frontend/backend-tools {
+    te
+    height: 20vh;
+}
+
+#projects-header{
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    padding-left: 3vw;
 }
 
 .project {
@@ -35,6 +57,11 @@ h1, h2, h3, h4, h5, h6, p {
 .right-image {
     width: 25vw;
     height: 35vw;
+}
+
+.work-in-progress{
+    height: 35vh;
+    line-height: 35vh;
 }
 
 #footer {
