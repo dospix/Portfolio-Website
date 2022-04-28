@@ -16,7 +16,7 @@
 
     <div id="form">
         <div id="form-box">
-            <form method="post">
+            <form method="POST">
                 <div>
                     <label>Age category: </label>
                     <select>
@@ -63,6 +63,28 @@
             </form>
         </div>
     </div>
+
+    <h1>Model metrics:</h1>
+    <ul>
+        <li>Accuracy: 75%</li>
+        <li>Precision: 72%</li>
+        <li>Recall: 78%</li>
+        <li>f1: 75%</li>
+    </ul>
+
+    <h1>Model creation process:</h1>
+    <p>
+        The model has been trained using the <a href="https://www.kaggle.com/datasets/kamilpytlak/personal-key-indicators-of-heart-disease" target="_blank">Personal Key Indicators of Heart Disease</a> dataset on kaggle.com. <br>
+        The dataset didn't require cleaning, however I did need to convert all string values to numbers. <br>
+        <br>
+        Afterwards, because the dataset was heavily imbalanced(9% positive / 91% negative) I measured the optimal amount of undersampling for the best metrics using the DecisionTreeClassifier. <br>
+        For the best result I had to remove 90% of the negative results, resulting in 52% negative and 48% positive cases, or 56616 cases in total. <br>
+        <br>
+        Finally, I measured the correlation between every feature and the one representing whether the person had heart disease or not, so that I could only keep the ones that had a positive effect on the dataset. <br>
+        The features that were picked, from highest correlation to lowest correlation, are: AgeCategory, DifficultyWalking, Diabetic, Stroke and GeneralHealth. Adding the next one on the list(PhysicalHealth) resulted in slightly worse metrics. <br>
+        <br>
+        After undersampling the dataset and using the best features, the resulting DecisionTreeClassifier model had the metrics mentioned above.
+    </p>
 
     <footer id="footer">
         <a href="https://github.com/dospix" target="_blank"><img class="vector-graphics" src="../static/images/github.svg" alt="GitHub"/></a>

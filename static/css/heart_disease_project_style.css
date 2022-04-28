@@ -57,9 +57,9 @@ label {
 }
 
 select {
-    width: 7vw;
+    width: 8vw;
     text-align: center;
-    font-size: 1.1vw;
+    font-size: 0.9em;
 }
 
 #submit-button-div {
@@ -70,8 +70,21 @@ select {
 }
 
 button {
-    font-size: 1.1vw;
+    font-size: 1em;
     width: 10vw;
+}
+
+ul {
+    font-size: 1.25em;
+    padding-left: 7vw;
+}
+
+li {
+    padding-bottom: 2vh;
+}
+
+p {
+    font-size: 1.2em;
 }
 
 #footer {
