@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../static/css/heart_disease_project_style.css">
+    <title>Heart disease ml project</title>
+</head>
+<body>
+    <div id="page-title">
+        <div id="title-box">
+            <h1>Test the machine learning model</h1>
+        </div>
+    </div>
+
+    <div id="form">
+        <div id="form-box">
+            <form method="post">
+                <div>
+                    <label>Age category: </label>
+                    <select>
+                        <option value="18-24">18-24</option>
+                        <option value="25-29">25-29</option>
+                        <option value="30-34">30-34</option>
+                        <option value="35-39">35-39</option>
+                        <option value="40-44">40-44</option>
+                        <option value="45-49">45-49</option>
+                        <option value="50-54">50-54</option>
+                        <option value="55-59">55-59</option>
+                        <option value="60-64">60-64</option>
+                        <option value="65-69">65-69</option>
+                        <option value="70-74">70-74</option>
+                        <option value="75-79">75-79</option>
+                        <option value="80 or older">80 or older</option>
+                    </select>
+                </div>
+                <div>
+                    <label class="long-label">Do you have serious difficulty walking or climbing stairs?</label>
+                    <input type="checkbox">
+                </div>
+                <div>
+                    <label class="long-label">Have you ever been diagnosed with diabetes?</label>
+                    <input type="checkbox">
+                </div>
+                <div>
+                    <label class="long-label">Have you ever had a stroke?</label>
+                    <input type="checkbox">
+                </div>
+                <div>
+                    <label class="medium-label">Your health in general is...</label>
+                    <select>
+                        <option value="Poor">Poor</option>
+                        <option value="Fair">Fair</option>
+                        <option value="Excellent">Excellent</option>
+                        <option value="Good">Good</option>
+                        <option value="Very good">Very good</option>
+                    </select>
+                </div>
+                <div id="submit-button-div">
+                    <button type="submit">Begin prediction</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <footer id="footer">
+        <a href="https://github.com/dospix" target="_blank"><img class="vector-graphics" src="../static/images/github.svg" alt="GitHub"/></a>
+        <a href="https://www.linkedin.com/in/daniel-dospinescu-ba7285239/" target="_blank"><img class="vector-graphics" src="../static/images/linked_in.svg" alt="LinkedIn"/></a>
+        <h4 id="copyright">&copy; 2022 Dospinescu Daniel</h4>
+    </footer>
+</body>
+</html>
