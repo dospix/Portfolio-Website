@@ -106,4 +106,4 @@ def predict_heart_disease_risk(age_category, difficulty_walking, diabetic, strok
 
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run()
