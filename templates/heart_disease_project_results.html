@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="{{ url_for('static', filename='css/heart_disease_project_style.css') }}" />
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/heart_disease_project_results_style.css') }}" />
     <title>Heart disease ml project</title>
 </head>
 <body>
@@ -63,6 +63,16 @@
             </form>
         </div>
     </div>
+
+    {% if at_risk_of_heart_disease %}
+        <div class="prediction-div">
+            <h1 class="centered-title">The model predicted that you are at risk of heart disease!</h1>
+        </div>
+    {% else %}
+        <div class="prediction-div">
+            <h1 class="centered-title">The model predicted that you are not at risk of heart disease!</h1>
+        </div>
+    {% endif %}
 
     <h1>Model metrics:</h1>
     <ul>

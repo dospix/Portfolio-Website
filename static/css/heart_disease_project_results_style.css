@@ -1,0 +1,111 @@
+* {
+    background-color: rgb(27, 26, 26);
+    color: white;
+}
+
+html body {
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    padding: 1vh 1vw 1vh 1vw;
+    margin: 1vh 1vw 1vh 1vw;
+}
+
+#page-title {
+    display: flex;
+    align-items: center;
+    height: 20vh;
+}
+
+#title-box{
+    margin: auto;
+}
+
+.centered-title {
+    text-align: center;
+}
+
+#form {
+    display: flex;
+    align-items: center;
+}
+
+#form-box {
+    margin: auto;
+}
+
+form > div {
+    font-size: 1.25vw;
+    height: 6vh;
+    text-align: center;
+}
+
+label {
+    display: inline-block;
+    text-align: center;
+    width: 10vw;
+}
+
+.long-label {
+    width: 30vw;
+}
+
+.medium-label {
+    width: 15vw;
+}
+
+select {
+    width: 8vw;
+    text-align: center;
+    font-size: 0.9em;
+}
+
+#submit-button-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+}
+
+button {
+    font-size: 1em;
+    width: 10vw;
+}
+
+.prediction-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+}
+
+ul {
+    font-size: 1.25em;
+    padding-left: 7vw;
+}
+
+li {
+    padding-bottom: 2vh;
+}
+
+p {
+    font-size: 1.2em;
+}
+
+#footer {
+    border-top: 0.2vh solid black;
+    height: 10vh;
+    background: rgb(27, 26, 26);
+}
+
+.vector-graphics {
+    padding: 2vh 0 1vh 2vw;
+    width: 2.5vw;
+}
+
+#copyright {
+    margin-top: 0;
+    padding: 1vh 0 1.5vh 1vw;
+}
