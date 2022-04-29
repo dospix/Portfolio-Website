@@ -13,6 +13,15 @@ h1, h2, h3, h4, h5, h6, p {
     margin: 1vh 1vw 1vh 1vw;
 }
 
+#back-to-homepage {
+    padding: 2vh 0 0 2vw;
+}
+
+#back-to-homepage-button {
+    font-size: 1.25em;
+    height: 4vh;
+}
+
 #page-title {
     display: flex;
     align-items: center;
@@ -37,7 +46,7 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 form > div {
-    font-size: 1.25vw;
+    font-size: 1.25em;
     height: 6vh;
     text-align: center;
 }
