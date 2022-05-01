@@ -33,7 +33,7 @@ h1, h2, h3, h4, h5, h6, p {
         display: flex;
         justify-content: center;
         align-items: center;
-        height: 20vh;
+        height: 30vh;
         font-size: 1em;
     }
 
@@ -62,8 +62,8 @@ h1, h2, h3, h4, h5, h6, p {
     }
 
     .right-image {
-        width: 25vw;
-        height: 35vw;
+        width: 30vw;
+        height: 40vw;
     }
 
     .work-in-progress{
