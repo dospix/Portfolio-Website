@@ -13,69 +13,149 @@ h1, h2, h3, h4, h5, h6, p {
     margin: 1vh 1vw 1vh 1vw;
 }
 
-#page-title {
-    display: flex;
-    align-items: center;
-    height: 20vh;
+@media only screen and (max-width: 992px){
+    #page-title {
+        display: flex;
+        align-items: center;
+        height: 20vh;
+        font-size: 0.75em;
+    }
+
+    #titles {
+        margin: auto;
+    }
+
+    .centered-title {
+        text-align: center;
+    }
+
+    #page-tools {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 20vh;
+        font-size: 1em;
+    }
+
+    #projects-header{
+        height: 25vh;
+        display: flex;
+        align-items: center;
+        padding-left: 3vw;
+        font-size: 1.5em;
+    }
+
+    .project {
+        background-color: red;
+        display: flex;
+        justify-content: center;
+    }
+
+    .project > .text {
+        width: 65%;
+        text-align: center;
+        font-size: 0.75em;
+    }
+
+    .project > .image {
+        width: 35%;
+    }
+
+    .right-image {
+        width: 25vw;
+        height: 35vw;
+    }
+
+    .work-in-progress{
+        height: 35vh;
+        line-height: 35vh;
+        font-size: 0.75em;
+    }
+
+    #footer {
+        border-top: 0.2vh solid black;
+        height: 10vh;
+        background: rgb(27, 26, 26);
+    }
+
+    .vector-graphics {
+        padding: 2vh 0 1vh 2vw;
+        width: 7.5vw;
+    }
+
+    #copyright {
+        margin-top: 0;
+        padding: 1vh 0 1.5vh 1vw;
+    }
 }
 
-#titles {
-    margin: auto;
-}
+@media only screen and (min-width: 993px){
+    #page-title {
+        display: flex;
+        align-items: center;
+        height: 20vh;
+    }
 
-.centered-title {
-    text-align: center;
-}
+    #titles {
+        margin: auto;
+    }
 
-#frontend/backend-tools {
-    te
-    height: 20vh;
-}
+    .centered-title {
+        text-align: center;
+    }
 
-#projects-header{
-    height: 20vh;
-    display: flex;
-    align-items: center;
-    padding-left: 3vw;
-}
+    #page-tools {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 20vh;
+    }
 
-.project {
-    background-color: red;
-    display: flex;
-    justify-content: center;
-}
+    #projects-header{
+        height: 20vh;
+        display: flex;
+        align-items: center;
+        padding-left: 3vw;
+    }
 
-.project > .text {
-    width: 65%;
-    text-align: center;
-}
+    .project {
+        background-color: red;
+        display: flex;
+        justify-content: center;
+    }
 
-.project > .image {
-    width: 35%;
-}
+    .project > .text {
+        width: 65%;
+        text-align: center;
+    }
 
-.right-image {
-    width: 25vw;
-    height: 35vw;
-}
+    .project > .image {
+        width: 35%;
+    }
 
-.work-in-progress{
-    height: 35vh;
-    line-height: 35vh;
-}
+    .right-image {
+        width: 25vw;
+        height: 35vw;
+    }
 
-#footer {
-    border-top: 0.2vh solid black;
-    height: 10vh;
-    background: rgb(27, 26, 26);
-}
+    .work-in-progress{
+        height: 35vh;
+        line-height: 35vh;
+    }
 
-.vector-graphics {
-    padding: 2vh 0 1vh 2vw;
-    width: 2.5vw;
-}
+    #footer {
+        border-top: 0.2vh solid black;
+        height: 10vh;
+        background: rgb(27, 26, 26);
+    }
 
-#copyright {
-    margin-top: 0;
-    padding: 1vh 0 1.5vh 1vw;
+    .vector-graphics {
+        padding: 2vh 0 1vh 2vw;
+        width: 2.5vw;
+    }
+
+    #copyright {
+        margin-top: 0;
+        padding: 1vh 0 1.5vh 1vw;
+    }
 }
