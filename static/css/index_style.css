@@ -38,15 +38,15 @@ h1, h2, h3, h4, h5, h6, p {
     }
 
     #projects-header{
-        height: 25vh;
+        height: 2vh;
         display: flex;
         align-items: center;
         padding-left: 3vw;
+        padding-bottom: 10vh;
         font-size: 1.5em;
     }
 
     .project {
-        background-color: red;
         display: flex;
         justify-content: center;
     }
@@ -58,18 +58,19 @@ h1, h2, h3, h4, h5, h6, p {
     }
 
     .project > .image {
-        width: 35%;
+        width: 50%;
     }
 
     .right-image {
         width: 30vw;
         height: 40vw;
+        margin-top: 3vh;
     }
 
-    .work-in-progress{
-        height: 35vh;
-        line-height: 35vh;
-        font-size: 0.75em;
+    .left-image {
+        width: 50vw;
+        height: 25vw;
+        margin: 5vh 0 5vh 5vw;
     }
 
     #footer {
@@ -112,16 +113,17 @@ h1, h2, h3, h4, h5, h6, p {
     }
 
     #projects-header{
-        height: 20vh;
+        height: 1vh;
         display: flex;
         align-items: center;
         padding-left: 3vw;
+        padding-top: 10vh;
     }
 
     .project {
-        background-color: red;
         display: flex;
         justify-content: center;
+        height: 35vw;
     }
 
     .project > .text {
@@ -130,17 +132,27 @@ h1, h2, h3, h4, h5, h6, p {
     }
 
     .project > .image {
-        width: 35%;
+        width: 50%;
+        margin: 8vh 0 0 2.5vw;
     }
 
     .right-image {
         width: 25vw;
         height: 35vw;
+        margin: 0 0 50vh 5vw;
     }
 
-    .work-in-progress{
-        height: 35vh;
-        line-height: 35vh;
+    .left-title{
+        margin: 15vh 0 0 0;
+    }
+
+    .left-image {
+        width: 40vw;
+        height: 25vw;
+    }
+
+    .right-title {
+        margin-top: 12.5vh;
     }
 
     #footer {
