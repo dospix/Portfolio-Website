@@ -16,6 +16,11 @@ def machine_learning_project():
     return render_template("heart_disease_project.html")
 
 
+@app.route("/math-app-project")
+def math_app_project():
+    return render_template("math_app_project.html")
+
+
 @app.route("/results", methods=["GET", "POST"])
 def show_results():
     age_category = request.form["age_category"]

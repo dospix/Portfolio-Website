@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/math_app_project_style.css') }}" />
+    <title>Heart disease ml project</title>
+</head>
+<body>
+    <form action="/" id="back-to-homepage">
+        <input type="submit" id="back-to-homepage-button" value="Back to homepage" />
+    </form>
+
+    <div id="page-title">
+        <div id="title-box">
+            <h1>GUI math app</h1>
+        </div>
+    </div>
+
+    <div class="image">
+        <img src="../static/images/math_app.jpg" alt="math_app first image">
+    </div>
+
+    <div class="image">
+        <img src="../static/images/math_app2.jpg" alt="math_app second image">
+    </div>
+
+    <div class="image">
+        <img src="../static/images/math_app3.jpg" alt="math_app third image">
+    </div>
+
+    <div class="image">
+        <img src="../static/images/math_app4.jpg" alt="math_app fourth image">
+    </div>
+
+    <p>You don't need Python installed to use the app, just use the installer and then run MathApp.exe</p>
+    <a href="{{ url_for('static', filename='./math_app_installer/math-GUI-app.exe') }}" download><h3>Download link</h3></a>
+
+    <footer id="footer">
+        <a href="https://github.com/dospix" target="_blank"><img class="vector-graphics" src="../static/images/github.svg" alt="GitHub"/></a>
+        <a href="https://www.linkedin.com/in/daniel-dospinescu-ba7285239/" target="_blank"><img class="vector-graphics" src="../static/images/linked_in.svg" alt="LinkedIn"/></a>
+        <h4 id="copyright">&copy; 2022 Dospinescu Daniel</h4>
+    </footer>
+</body>
+</html>
